@@ -1,0 +1,62 @@
+# ========================
+# Secrets & Credentials
+# ========================
+**/google-services.json
+**/firebase-adminsdk*.json
+**/*.keystore
+**/*.jks
+.env
+.env.*
+**/local.properties
+
+# ========================
+# Android
+# ========================
+android/.gradle/
+android/local.properties
+android/.idea/
+android/app/build/
+android/build/
+android/captures/
+android/**/*.iml
+android/.externalNativeBuild/
+android/.cxx/
+
+# ========================
+# Spring Boot / Java
+# ========================
+backend/target/
+backend/.mvn/repository/
+backend/*.class
+backend/*.jar
+backend/*.war
+backend/MANIFEST.MF
+backend/.idea/
+backend/**/*.iml
+backend/**.classpath
+backend/**.project
+backend/**.settings/
+
+# ========================
+# IDE
+# ========================
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# Claude Code
+# ========================
+tmpclaude-*
